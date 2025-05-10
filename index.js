@@ -5,7 +5,7 @@ const app = express();
 
 const port = 3000;
 
-mongoose.connect('mongodb://127.0.0.1:27017/contacts').then(()=>{
+mongoose.connect('mongodb+srv://ahmedshaharyar00:ahmedshaharyar00@cluster0.zcjpybb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0').then(()=>{
 console.log("DB connnected!");
 });
 
